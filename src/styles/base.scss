@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Averta-Regular';
+  src: url('./fonts/Intelligent Design - AvertaStd-Regular.otf') format('opentype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Averta-Light';
+  src: url('./fonts/Intelligent Design - AvertaStd-Light.otf') format('opentype');
+  font-weight: 100;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Averta-Regular', sans-serif;
+}
+
+h1, h2, h3, ul, p {
+  font-family: 'Averta-Regular', sans-serif;
+}
+
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+}
+h3 {
+  margin-bottom: 12px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+.section-counter {
+  position: absolute;
+  left: -34px;
+  color: white;
+  span {
+    top: 2px;
+    left: 4px;
+    position: absolute;
+    font-size: 14px;
+  }
+}

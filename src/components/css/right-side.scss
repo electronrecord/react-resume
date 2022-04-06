@@ -1,0 +1,66 @@
+@import "../../styles/vars";
+
+#right-side {
+  background-color: $light-bg-color;
+  #avatar {
+    text-align: right;
+    margin: 12px 0 0;
+    img {
+      width: 113px;
+      border-radius: 50%;
+    }
+  }
+  h1 {
+    margin-top: -48px;
+    margin-bottom: 8px;
+    font-size: 36px;
+    font-weight: 100;
+    font-family: 'Averta-Light', sans-serif;
+    b {
+      font-family: 'Averta-Regular', sans-serif;
+    }
+  }
+  h1 + span {
+    padding: 6px 12px;
+    font-size: 14px;
+    display: inline-block;
+    background-color: $dark-grey;
+    color: white;
+  }
+  #skills {
+    h3 + ul > li {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .dots-wrapper {
+    display: flex;
+    li {
+      width: 8px;
+      height: 8px;
+      margin-right: 6px;
+      border-radius: 50%;
+      background-color: #C2C2C2;
+      &.selected-dot-skill {
+        background-color: #585555;
+      }
+    }
+  }
+  .text-block {
+    position: relative;
+    margin-bottom: 48px;
+  }
+  .skills {
+    margin-top: 36px;
+  }
+  .education {
+    & > div {
+      margin-bottom: 24px;
+      display: flex;
+      p {
+        margin: 0 0 0 12px;
+      }
+    }
+  }
+}
