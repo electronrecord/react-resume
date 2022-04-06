@@ -19,9 +19,9 @@ export const LeftSide = function () {
   return (
     <section id="left-side">
       <p>
-        Call <a href="tel:0753100656">0753100656</a> or
+        Call <a href="tel:0753100656">0777777777</a> or
         <br/>
-        Email <a href="mailto:nicolaevlad7@gmail.com">nicolaevlad7@gmail.com</a>
+        Email <a href="mailto:nicolaevlad7@gmail.com">demo@demo.ro</a>
       </p>
 
       <article>

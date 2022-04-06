@@ -47,9 +47,11 @@ export const RightSide = function () {
     'Cycling',
   ]
 
+  // doSometehing
+
   return (
     <section id="right-side">
-      <figure id='avatar'>
+      <figure id="avatar">
         <img src={avatar} alt=""/>
       </figure>
       <h1>
@@ -62,8 +64,8 @@ export const RightSide = function () {
           </span>
 
       <article id="skills">
-        <div className='skills text-block'>
-          <SectionCounter count='01' />
+        <div className="skills text-block">
+          <SectionCounter count="01"/>
           <h2>SKILLS</h2>
           <h3>Programming languages</h3>
           <ul id="programming-languages">
@@ -86,23 +88,23 @@ export const RightSide = function () {
           </ul>
 
           <h3>Additional Skills</h3>
-          <CustomList data={additional} />
+          <CustomList data={additional}/>
         </div>
 
-        <div className='education text-block'>
-          <SectionCounter count='02' />
+        <div className="education text-block">
+          <SectionCounter count="02"/>
           <h2>EDUCATION</h2>
           {
             education.map(text => (
-              <Education key={text} text={text} />
+              <Education key={text} text={text}/>
             ))
           }
         </div>
 
-        <div className='text-block'>
-          <SectionCounter count='03' />
+        <div className="text-block">
+          <SectionCounter count="03"/>
           <h2>HOBBIES</h2>
-          <CustomList data={hobbies} />
+          <CustomList data={hobbies}/>
         </div>
       </article>
     </section>
